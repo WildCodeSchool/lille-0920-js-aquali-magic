@@ -5,11 +5,13 @@
 .FirstSection {
   background-image: url(https://i.ibb.co/ctTNS0B/thb-bill-elis-1920x1080-wallpaper.jpg);
   height: 70vh;
+  background-position: center;
 }
 
 .FirstSection2 {
   background-image: url(https://i.ibb.co/YcwdcWf/Zendikar-Rising-resize.png);
   height: 20vh;
+  background-position: center;
 }
 
 .SecondSection {
@@ -52,7 +54,7 @@
 }
 
 .ButtonGrimoire {
-  margin-top: 35vh;
+  margin-top: 40vh;
   background-color: black;
   border-radius: 30px;
   height: 6vh;

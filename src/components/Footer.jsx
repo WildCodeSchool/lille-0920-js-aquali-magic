@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         <div className="lieux">
-          <h4>Nous trouver</h4>
+          <h4 id="nousTrouver">Nous trouver</h4>
           <div>
             <input />
           </div>
