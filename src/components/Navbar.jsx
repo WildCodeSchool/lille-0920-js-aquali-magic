@@ -1,3 +1,4 @@
+import Cards from '../pages/cards';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -28,6 +29,7 @@ const Navbar = () => {
         <li>
           <a href="#e">Booster</a>
         </li>
+        <Cards />
       </ul>
     </nav>
   );
