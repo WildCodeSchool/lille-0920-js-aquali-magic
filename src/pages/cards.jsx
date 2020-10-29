@@ -22,7 +22,7 @@ class Cards extends React.Component {
     const { cards } = this.state;
     return (
       <div>
-        <SearchRapide searchName={this.searchCard} cards={cards} />
+        <SearchRapide searchName={this.searchCard} />
         <div>
           <CardList cards={cards} />
         </div>

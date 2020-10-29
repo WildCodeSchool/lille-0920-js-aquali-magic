@@ -21,6 +21,10 @@ li {
   padding-right: 3vw;
 }
 
+li a {
+  padding-right: 1.5vw;
+}
+
 #logo {
   width: 20vw;
   height: 15vh;
