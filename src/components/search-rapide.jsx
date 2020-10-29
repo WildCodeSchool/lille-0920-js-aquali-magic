@@ -18,7 +18,7 @@ class SearchRapide extends React.Component {
     const { text } = this.state;
     return (
       <div>
-        <form onSubmit={this.onSubmit}>
+        <form className="search-rapid" onSubmit={this.onSubmit}>
           <input
             type="text"
             name="text"
@@ -27,6 +27,7 @@ class SearchRapide extends React.Component {
             onChange={this.onChange}
           />
         </form>
+
         {/* {this.props.cards.length > 0 && <Redirect to="/cartes" />} */}
       </div>
     );

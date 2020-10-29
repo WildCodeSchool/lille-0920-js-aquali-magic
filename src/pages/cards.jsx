@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import CardList from '../components/cardlist';
 import SearchRapide from '../components/search-rapide';
+import './cards.scss';
 
 class Cards extends React.Component {
   constructor() {
@@ -21,7 +22,7 @@ class Cards extends React.Component {
   render() {
     const { cards } = this.state;
     return (
-      <div>
+      <div className="search-container">
         <SearchRapide searchName={this.searchCard} />
         <div>
           <CardList cards={cards} />

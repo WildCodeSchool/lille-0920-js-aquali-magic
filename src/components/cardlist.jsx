@@ -1,9 +1,16 @@
 // eslint-disable jsx-props-no-spreading
 import CardItem from './carditem';
 
+const cardStyle = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(5, 1fr)',
+  gridGap: '1rem',
+  justifyItems: 'center',
+};
+
 const CardList = ({ cards }) => {
   return (
-    <div>
+    <div className="cards" style={cardStyle}>
       {cards
         .filter((card, i) => {
           return i < 5;
@@ -17,4 +24,5 @@ const CardList = ({ cards }) => {
     </div>
   );
 };
+
 export default CardList;
