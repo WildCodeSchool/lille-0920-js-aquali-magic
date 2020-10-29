@@ -19,11 +19,21 @@ class Cards extends React.Component {
     this.setState({ cards: res.data.cards });
   };
 
+  //  clear cards
+  clearCards = () =>
+    this.setState({
+      cards: [],
+    });
+
   render() {
     const { cards } = this.state;
     return (
       <div className="search-container">
-        <SearchRapide searchName={this.searchCard} />
+        <SearchRapide
+          searchName={this.searchCard}
+          showClear={cards.length > 0}
+          clearCards={this.clearCards}
+        />
         <div>
           <CardList cards={cards} />
         </div>
