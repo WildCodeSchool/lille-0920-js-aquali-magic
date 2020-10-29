@@ -1,8 +1,8 @@
 import React from 'react';
 
 class SearchRapide extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = { text: '' };
   }
 
@@ -27,6 +27,7 @@ class SearchRapide extends React.Component {
             onChange={this.onChange}
           />
         </form>
+        {/* {this.props.cards.length > 0 && <Redirect to="/cartes" />} */}
       </div>
     );
   }
