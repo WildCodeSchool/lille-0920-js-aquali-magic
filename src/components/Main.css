@@ -3,15 +3,16 @@
 }
 
 .FirstSection {
-  background-image: url(https://i.ibb.co/ctTNS0B/thb-bill-elis-1920x1080-wallpaper.jpg);
-  height: 70vh;
+  background-image: url(https://images8.alphacoders.com/949/thumb-1920-949830.jpg);
+  height: 90vh;
   background-position: center;
 }
 
 .FirstSection2 {
   background-image: url(https://i.ibb.co/YcwdcWf/Zendikar-Rising-resize.png);
-  height: 20vh;
+  height: 23vh;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .SecondSection {
@@ -34,19 +35,19 @@
 }
 .CartesHomepage li {
   height: 10vh;
-  padding-top: 10vh;
-  padding-left: 2vh;
-  padding-right: 2vh;
+  padding: 10vh 8vh 0 8vh;
 }
 
 .HistoireTxt {
   padding-top: 10vh;
   width: 100%;
+  text-align: center;
 }
 
 .HistoireTxt p {
   font-size: 2vh;
-  width: 50%;
+  text-align: center;
+  margin: 0 25% 0 25%;
 }
 
 .HistoireTxt h1 {

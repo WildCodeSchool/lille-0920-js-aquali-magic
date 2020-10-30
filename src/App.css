@@ -4,5 +4,8 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  background-color: violet;
+}
+
+::placeholder {
+  color: rgb(53, 53, 53);
 }
