@@ -1,7 +1,7 @@
 import './App.css';
 import MainPage from './components/Main';
 import Navbar from './components/Navbar';
-import Cards from './pages/cards';
+import SearchBarRapid from './components/search-rapid/search-bar-rapid';
 import Footer from './components/Footer';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar />
       <div className="container">
-        <Cards />
+        <SearchBarRapid />
       </div>
       <MainPage />
       <Footer />
