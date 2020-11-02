@@ -4,6 +4,21 @@ import carteGauche from '../../public/image/carte-gauche.png';
 import carteMilieu from '../../public/image/carte-milieu.png';
 import carteDroite from '../../public/image/carte-droite.png';
 
+const A = styled.a`
+  &:hover {
+    color: rgb(255, 123, 0);
+    transition: 0.5s;
+  }
+`;
+
+const ButtonGrimoire = styled.button`
+margin-top: 40vh;
+background-color: black;
+border-radius: 30px;
+height: 6vh;
+}
+`;
+
 const DivFirstSection1 = styled.div`
   background-image: url(https://images8.alphacoders.com/949/thumb-1920-949830.jpg);
   height: 90vh;
@@ -35,28 +50,15 @@ const DivTxtHistoire = styled.div`
   text-align: center;
 `;
 
-const UlCards = styled.ul`
-display: flex;
-justify-content: center;
-}
-`;
 const LiCards = styled.li`
   height: 10vh;
   padding: 10vh 8vh 0 8vh;
 `;
 
-const ButtonGrimoire = styled.button`
-margin-top: 40vh;
-background-color: black;
-border-radius: 30px;
-height: 6vh;
+const UlCards = styled.ul`
+display: flex;
+justify-content: center;
 }
-`;
-const A = styled.a`
-  &:hover {
-    color: rgb(255, 123, 0);
-    transition: 0.5s;
-  }
 `;
 
 const MainPage = () => {
