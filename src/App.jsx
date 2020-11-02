@@ -1,20 +1,19 @@
 import './App.css';
+import MainPage from './components/Main';
+import Navbar from './components/Navbar';
+import SearchBarRapid from './components/search-rapid/search-bar-rapid';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <main className="container">
-      <div className="item">
-        <h1>Hello world !</h1>
+    <div>
+      <Navbar />
+      <div className="container">
+        <SearchBarRapid />
       </div>
-      <div className="item">
-        <p>Welcome to your fresh, lightweight, React App ! &#127752;</p>
-      </div>
-      <div className="item">
-        <p>
-          Start in the <code>App.jsx</code> component !
-        </p>
-      </div>
-    </main>
+      <MainPage />
+      <Footer />
+    </div>
   );
 }
 
