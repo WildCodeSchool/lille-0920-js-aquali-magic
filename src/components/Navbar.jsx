@@ -1,4 +1,5 @@
 import './Navbar.css';
+import logoMagic from '../../public/image/Logo-magic.jpg';
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <li>
           <a href="#a">
             <img
-              src="https://i.ibb.co/xFMPcrP/magic.jpg"
+              src={logoMagic}
               alt="Logo du jeu Magic The Gathering"
               id="logo"
             />
