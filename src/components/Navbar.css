@@ -10,11 +10,13 @@ nav {
 
 .navList li {
   padding-right: 3vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 li a {
   padding-right: 1.5vw;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 #logo {
@@ -25,8 +27,4 @@ li a {
 li :hover {
   color: rgb(255, 123, 0);
   transition: 0.5s;
-}
-
-#logo {
-  height: 10vh;
 }

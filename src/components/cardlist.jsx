@@ -1,16 +1,8 @@
-// eslint-disable jsx-props-no-spreading
 import CardItem from './carditem';
-
-const cardStyle = {
-  display: 'grid',
-  gridTemplateColumns: 'repeat(5, 1fr)',
-  gridGap: '1rem',
-  justifyItems: 'center',
-};
 
 const CardList = ({ cards }) => {
   return (
-    <div className="cards" style={cardStyle}>
+    <div className="cards">
       {cards
         .filter((card, i) => {
           return i < 5;

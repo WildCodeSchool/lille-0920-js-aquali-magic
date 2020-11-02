@@ -25,15 +25,15 @@ const Footer = () => {
             </a>
 
             <a href="https://www.youtube.com/channel/UC8ZGymAvfP97qJabgqUkz4A">
-              <i className="fab fa-youtube" />{' '}
+              <i className="fab fa-youtube" />
             </a>
 
             <a href="https://www.instagram.com/wizards_magic/">
-              <i className="fab fa-instagram" />{' '}
+              <i className="fab fa-instagram" />
             </a>
 
             <a href="https://www.twitch.tv/magic">
-              <i className="fab fa-twitch" />{' '}
+              <i className="fab fa-twitch" />
             </a>
           </div>
         </div>

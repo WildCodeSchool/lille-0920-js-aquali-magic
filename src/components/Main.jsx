@@ -1,4 +1,7 @@
 import './Main.css';
+import carteGauche from '../../public/image/carte-gauche.png';
+import carteMilieu from '../../public/image/carte-milieu.png';
+import carteDroite from '../../public/image/carte-droite.png';
 
 const MainPage = () => {
   return (
@@ -28,21 +31,21 @@ const MainPage = () => {
             <ul className="CartesHomepage">
               <li>
                 <img
-                  src="https://i.ibb.co/Df0L7Jn/carte-gauche.png"
+                  src={carteGauche}
                   alt="Carte de la Canalieuse magmatique"
                   className="Carte"
                 />
               </li>
               <li>
                 <img
-                  src="https://i.ibb.co/GWJG9DX/carte-milieu.png"
+                  src={carteMilieu}
                   alt="Carte de Jace, mage du miroir"
                   className="Carte"
                 />
               </li>
               <li>
                 <img
-                  src="https://i.ibb.co/MNBtcBk/carte-droite.png"
+                  src={carteDroite}
                   alt="Carte du Lac de montagne bouillant"
                   className="Carte"
                 />
@@ -51,7 +54,7 @@ const MainPage = () => {
           </div>
           <div className="Button">
             <button className="ButtonGrimoire" type="button">
-              <a href="#9">Ouvrir le grimoire de Zandikar</a>
+              <a href="#9">Ouvrir le grimoire de Zendikar</a>
             </button>
           </div>
         </div>

@@ -56,7 +56,6 @@ class SearchBarRapid extends React.Component {
               Clear
             </button>
           )}
-          {/* {this.props.cards.length > 0 && <Redirect to="/cartes" />} */}
         </div>
         <div>
           <CardList cards={cards} />

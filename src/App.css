@@ -12,3 +12,7 @@
   margin: 0;
   text-decoration: none;
 }
+
+::placeholder {
+  color: rgb(53, 53, 53);
+}
