@@ -55,6 +55,12 @@ const LiCards = styled.li`
   padding: 10vh 8vh 0 8vh;
 `;
 
+const P = styled.p`
+  margin: 0 15% 0 15%;
+  font-size: 1.3em;
+  text-shadow: 15px 15px 30px black;
+`;
+
 const UlCards = styled.ul`
 display: flex;
 justify-content: center;
@@ -73,7 +79,7 @@ const MainPage = () => {
           <div>
             <DivTxtHistoire>
               <h1>Une nouvelle aventure commence</h1>
-              <p>
+              <P>
                 Plan tumultueux au mana sauvage, à la météorologie instable et
                 aux mystérieux terrains flottants, Zendikar est un monde à la
                 beauté et aux dangers naturels incomparables. <br /> Son paysage
@@ -81,7 +87,7 @@ const MainPage = () => {
                 Roulis dont la violence rend la vie précaire imprévisible et
                 pleine d &apos; aventure. Les fleuves venus d &apos; au-dessus
                 de l &apos; horizon tombent en cascade.
-              </p>
+              </P>
             </DivTxtHistoire>
           </div>
 
